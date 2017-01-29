@@ -1,5 +1,4 @@
-package ist.meic.pa;
-
+package com.java.profiler;
 /**
  * Auxiliar class to store extended profiling results.
  */

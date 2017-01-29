@@ -1,4 +1,4 @@
-package ist.meic.pa;
+package com.java.profiler;
 
 /**
  * Sets up boxing and unboxing methods;

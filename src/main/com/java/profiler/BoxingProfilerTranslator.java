@@ -1,4 +1,4 @@
-package ist.meic.pa;
+package com.java.profiler;
 
 import java.util.Arrays;
 import java.util.Collections;

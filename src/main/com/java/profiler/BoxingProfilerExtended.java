@@ -1,4 +1,4 @@
-package ist.meic.pa;
+package com.java.profiler;
 
 import javassist.CannotCompileException;
 import javassist.ClassPool;

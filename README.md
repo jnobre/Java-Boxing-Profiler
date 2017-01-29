@@ -59,8 +59,14 @@ for each method, it prints those counters on System.err.
 
 ##Example
 ```{r, engine='bash', count_lines}
-$ java ist.meic.pa.BoxingProfiler SumInts
+$ java com.java.profiler.BoxingProfiler SumIntegers
 Sum: 4999999950000000
-Time: 29
+Time: 4436
+SumIntegers.main(java.lang.String[]) boxed 1 java.lang.Integer
+SumIntegers.main(java.lang.String[]) boxed 1 java.lang.Long
+SumIntegers.printSum(java.lang.Long) unboxed 1 java.lang.Long
+SumIntegers.sumOfIntegerUptoN(java.lang.Integer) unboxed 100000001 java.lang.Integer
+SumIntegers.sumOfIntegerUptoN(java.lang.Integer) boxed 100000001 java.lang.Long
+SumIntegers.sumOfIntegerUptoN(java.lang.Integer) unboxed 100000001 java.lang.Long
 ```
 

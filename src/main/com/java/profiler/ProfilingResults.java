@@ -1,4 +1,4 @@
-package ist.meic.pa;
+package com.java.profiler;
 
 import java.util.SortedMap;
 import java.util.TreeMap;
