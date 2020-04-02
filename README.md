@@ -51,13 +51,13 @@ Given that automatic boxing and unboxing can create performance problems that mi
 it would be interesting to have a profiling tool that can measure the amount of automatic boxing and unboxing
 that is made by a given program.
 
-##Implementation of a boxing/unboxing profiler for Java. 
+## Implementation of a boxing/unboxing profiler for Java. 
 
 During the execution of the Java program the profiler
 will count all the boxing and unboxing operations that are being done and, at the end of the program execution,
 for each method, it prints those counters on System.err.
 
-##Example
+## Example
 ```{r, engine='bash', count_lines}
 $ java com.java.profiler.BoxingProfiler SumIntegers
 Sum: 4999999950000000
